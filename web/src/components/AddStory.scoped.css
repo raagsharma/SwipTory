@@ -1,8 +1,7 @@
 .AddFormWrapper {
-  width: 624px;
-  height: 482px;
   display: flex;
   justify-content: center;
+  padding: 1rem 4rem;
 }
 
 .AddStoryForm {
@@ -10,7 +9,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 530px;
+  width: 100%;
 }
 
 .AddStoryButtonActions {
@@ -74,7 +73,14 @@
 .AddStoryItem {
   display: flex;
   justify-content: space-between;
-  width: 85%;
+  width: 100%;
+  gap: 8rem;
+}
+
+@media (max-width: 480px) {
+  .AddStoryItem {
+    gap: 0rem;
+  }
 }
 
 .FormInput {

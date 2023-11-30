@@ -1,7 +1,7 @@
 .CardContainer {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: center;
+  /* justify-content: center; */
   white-space: nowrap;
   overflow-x: auto;
   gap: 2rem;

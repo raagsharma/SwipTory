@@ -139,9 +139,7 @@
 
 .buttonPopup {
   position: absolute;
-  bottom: -200px;
   right: 0;
-  height: 180px;
   width: 300px;
   background: white;
   border-radius: 8px;
@@ -151,7 +149,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0rem 2rem;
+  gap: 1rem;
+  padding: 2rem;
 }
 
 .SignoutButton {
@@ -169,4 +168,16 @@
 
 .SignoutButton:hover {
   background-color: #db5858;
+}
+
+@media (max-width: 480px) {
+  .isDesktop {
+    display: none;
+  }
+}
+
+@media (min-width: 480px) {
+  .isMobile {
+    display: none;
+  }
 }

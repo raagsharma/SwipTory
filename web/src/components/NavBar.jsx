@@ -50,6 +50,7 @@ function NavBar({ onRefresh }) {
 
   function openAddStoryModal() {
     setStoryModalIsOpen(true)
+    setPoupIsOpen(false)
   }
 
   function closeAddStoryModal() {
@@ -75,10 +76,12 @@ function NavBar({ onRefresh }) {
           <div className="loggedIn">
             <div className="buttonGroup">
               <Link to="/bookmarks">
-                <button className="button bookmarkBtn">Bookmarks</button>
+                <button className="button bookmarkBtn isDesktop">
+                  Bookmarks
+                </button>
               </Link>
               <button
-                className="button addStoryBtn"
+                className="button addStoryBtn isDesktop"
                 onClick={openAddStoryModal}
               >
                 Add Story
@@ -106,6 +109,17 @@ function NavBar({ onRefresh }) {
                       >
                         {user.username}
                       </p>
+                      <Link to="/bookmarks">
+                        <button className="button bookmarkBtn isMobile">
+                          Bookmarks
+                        </button>
+                      </Link>
+                      <button
+                        className="button addStoryBtn isMobile"
+                        onClick={openAddStoryModal}
+                      >
+                        Add Story
+                      </button>
                       <button className="SignoutButton" onClick={handleSignout}>
                         Sign out
                       </button>

@@ -15,6 +15,7 @@ import {
 } from '../api/stories'
 import { useAuth } from '../hooks/auth'
 import { useEventDispatch } from '../hooks/event'
+import './HomePage.scoped.css'
 
 const customStyles = {
   overlay: {
@@ -132,11 +133,7 @@ function Home() {
   return (
     <>
       <NavBar onRefresh={mutate}></NavBar>
-      <main
-        style={{
-          padding: '2rem 3rem',
-        }}
-      >
+      <main className="main">
         <FList
           filters={filtersList}
           onFilterClick={onFilterClick}
