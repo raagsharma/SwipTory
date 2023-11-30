@@ -1,0 +1,78 @@
+.FormWrapper {
+  width: 624px;
+  height: 482px;
+  display: flex;
+  justify-content: center;
+}
+
+.SignInForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  width: 420px;
+}
+
+.FormHeader {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.FormContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+.FormItem {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.FormInput {
+  width: 245px;
+  height: 35px;
+  border: 1px solid black;
+}
+
+.FormLabel {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.CloseButton {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.formLoginBtn {
+  border-radius: 5rem;
+  width: 140px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 1.3rem;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  background-color: #73abff;
+  width: 160px;
+}
+
+.formLoginBtn:hover {
+  background-color: #5c8fd6;
+}
+
+.Title {
+  font-size: 32px;
+  margin: 0;
+}

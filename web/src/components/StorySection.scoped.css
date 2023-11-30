@@ -1,0 +1,12 @@
+.Section {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 1rem;
+  gap: 4rem;
+}
+
+.Title {
+  font-size: 38px;
+  margin: auto;
+}

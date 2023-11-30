@@ -1,0 +1,149 @@
+.AddFormWrapper {
+  width: 624px;
+  height: 482px;
+  display: flex;
+  justify-content: center;
+}
+
+.AddStoryForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 530px;
+}
+
+.AddStoryButtonActions {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.AddStorySlides {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.AddStorySlide {
+  width: 77px;
+  padding: 0.7rem;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 15px;
+  background: transparent;
+  box-shadow: 1px 1px 2px 2px rgb(223, 223, 223);
+  border: none;
+  cursor: pointer;
+}
+
+.AddStorySlide:hover {
+  background: whitesmoke;
+}
+
+.CloseFormButton {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: end;
+  width: 100%;
+}
+
+.CloseButton {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.AddStoryContent {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.AddStoryButtonGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.AddStoryItem {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+}
+
+.FormInput {
+  width: 245px;
+  height: 35px;
+  border: 1px solid black;
+  padding: 0rem 0.5rem;
+  border-radius: 5px;
+}
+
+.FormInputDescription {
+  width: 245px;
+  height: 115px;
+  border: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.FormLabel {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.PreviousSlideButton,
+.NextSlideButton,
+.PostStoryButton {
+  border-radius: 5rem;
+  width: 120px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0.7rem;
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+}
+
+.PreviousSlideButton {
+  background-color: #7eff73;
+}
+
+.PreviousSlideButton:hover {
+  background-color: #69ed5d;
+}
+
+.NextSlideButton {
+  background-color: #73abff;
+}
+
+.NextSlideButton:hover {
+  background-color: #5a8fdf;
+}
+
+.PostStoryButton {
+  background-color: #ff7373;
+}
+
+.PostStoryButton:hover {
+  background-color: #e75f5f;
+}
+
+.DeleteSlideButton {
+  position: absolute;
+  top: -5px;
+  right: -12px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}

@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+}
+
+.outer {
+  background: #d9d9d980;
+  height: 3px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.outer > .inner {
+  animation: fill 5s linear 1;
+  height: 100%;
+  background-color: white;
+  border-radius: 8px;
+  animation-play-state: paused;
+}
+
+@keyframes fill {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}

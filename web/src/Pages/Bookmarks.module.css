@@ -1,0 +1,57 @@
+.BookmarkSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 3rem;
+}
+
+.Header {
+  font-size: 38px;
+}
+
+.BookmarkedStories {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 3rem;
+  width: 100%;
+}
+
+.StoryCard {
+  width: 257px;
+  height: 459px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  border-radius: 10px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin: auto auto 4rem 0.7rem;
+}
+
+.cardTitle {
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.cardDesc {
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.cardImage {
+  position: absolute;
+  z-index: -1;
+  display: block;
+  width: 257px;
+  height: 459px;
+  border-radius: 10px;
+}

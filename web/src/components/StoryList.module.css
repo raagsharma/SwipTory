@@ -1,0 +1,19 @@
+.CardContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  overflow-x: auto;
+  gap: 2rem;
+}
+
+.CardContainer::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.CardContainer .item:first-child {
+  margin-left: auto;
+}
+
+.CardContainer .item:last-child {
+  margin-right: auto;
+}

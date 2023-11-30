@@ -1,0 +1,172 @@
+.NavBar {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  padding: 0.5rem;
+}
+
+.title {
+  color: black;
+  padding-left: 2rem;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 1rem;
+  margin-right: 2rem;
+  align-items: center;
+}
+
+.button {
+  border-radius: 5rem;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 1rem 1.5rem;
+}
+
+.registerBtn {
+  background-color: #ff7373;
+  font-size: 16px;
+  font-weight: 700;
+  width: 160px;
+  color: white;
+}
+
+.registerBtn:hover {
+  background-color: #db5858;
+}
+
+.signinBtn {
+  background-color: #73abff;
+  font-size: 16px;
+  font-weight: 700;
+  width: 160px;
+  color: white;
+}
+
+.signinBtn:hover {
+  background-color: #5c8fd6;
+}
+
+.wrapperSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  position: absolute;
+  width: 624px;
+  height: 482px;
+  top: 25%;
+  left: 35%;
+  border-radius: 20px;
+  background-color: rgb(255, 0, 0);
+  box-shadow: 0 4 30px #f12323(0, 0, 0, 0.25);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+}
+
+.formBoxRegister {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 624px;
+  height: 360px;
+}
+
+.Title {
+  font-size: 32px;
+  margin: 0;
+}
+
+.input {
+  padding: 0.8rem 3rem;
+  margin-left: 1rem;
+  background-color: #ffffff;
+  outline: 2px black;
+}
+
+.modalLabel {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.bookmarkBtn,
+.addStoryBtn {
+  border-radius: 5rem;
+  width: 140px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+  background-color: #73abff;
+  width: 160px;
+}
+
+.bookmarkBtn:hover,
+.addStoryBtn:hover {
+  background-color: #5c8fd6;
+}
+
+.avatarIcon {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+
+.menuIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.IconButton {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.buttonPopup {
+  position: absolute;
+  bottom: -200px;
+  right: 0;
+  height: 180px;
+  width: 300px;
+  background: white;
+  border-radius: 8px;
+  z-index: 10;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 2rem;
+}
+
+.SignoutButton {
+  border-radius: 5rem;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 1rem 1.5rem;
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+  background-color: #ff7373;
+  width: fit-content;
+}
+
+.SignoutButton:hover {
+  background-color: #db5858;
+}

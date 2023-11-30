@@ -1,0 +1,64 @@
+.card {
+  width: 257px;
+  height: 459px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  border-radius: 10px;
+  position: relative;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  cursor: pointer;
+}
+
+.card:hover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin: auto auto 4rem 0.7rem;
+}
+
+.cardTitle {
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.cardDesc {
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.cardImage {
+  position: absolute;
+  z-index: -1;
+  display: block;
+  height: 459px;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.EditButton {
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  color: black;
+  border-radius: 20px;
+  padding: 0.2rem 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  cursor: pointer;
+  transform: translate(-50%, 0);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 12px;
+}
+
+.EditButton:hover {
+  background: rgb(201, 198, 198);
+}
